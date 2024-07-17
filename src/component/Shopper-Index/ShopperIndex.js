@@ -42,7 +42,7 @@ export function ShopperIndex()
               <div className="mt-3">
                 <Routes>
                     {/* <Route path="/" element={<ShopperHome />} /> */}
-                    {/* <Route path="home" element={<ShopperHome />} /> */}
+                    <Route path="home" element={<ShopperCategory />} />
                     <Route path="jewelery" element={<ShopperJewelery />} />
                     <Route path="category/:catname" element={<ShopperCategory />} />
                     {/* <Route path="details/:id" element={<ShopperDetails />} /> */}
