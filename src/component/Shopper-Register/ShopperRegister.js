@@ -56,10 +56,12 @@ export function ShopperRegister()
 
              onSubmit= {
                 (values)=> {
+                    console.log(values);
                     axios({
                         method: "post",
                         url: "http://127.0.0.1:8080/registeruser",
                         data: values
+
                     })
                     .then(()=>{
                         alert("Register Successfully..");
